@@ -1,6 +1,6 @@
 # Openvolt + Official Carbon Intensity API from the National Grid
 
-Gool:
+Goal:
 - The energy consumed by the building in kilowatt-hours (kWh).
 - The amount of carbon dioxide (CO2) in kilograms emitted by the electricity generated for the building. This calculation requires half-hourly readings from data sources.
 - The percentage of the fuel mix (which may include sources like wind, solar, nuclear, coal, etc.) used to generate the electricity. This also necessitates the use of half-hourly readings to calculate a weighted average.

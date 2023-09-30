@@ -63,7 +63,6 @@ export class CarbonIntensityService {
                 return await carbonIntensityResponse.json<CarbonIntensityResponse>();
 
             } else {
-                console.log(carbonIntensityResponse)
                 throw new Error(`[CarbonIntensityService][fetchCarbonIntensityByDate]Failed to fetch carbon intensity data for interval starting at ${startDate}`);
             }
         } catch (error) {
